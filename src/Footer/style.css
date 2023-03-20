@@ -1,0 +1,13 @@
+.footer{
+    margin: auto;
+    text-align: right;
+    padding-top: 20px;
+    color: lightblue;
+   
+ }
+ 
+ .footer__paragraph{
+     border: 2px solid white;
+     
+     
+ }

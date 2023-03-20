@@ -1,0 +1,57 @@
+.form{
+    max-width: 600px;
+    margin: auto;
+    padding: 4
+    0px;
+ 
+}
+
+.form__header{
+    color: gold;
+  
+}
+.form__label{
+    color: rgb(122, 227, 111);
+    padding: 15px;
+    display: inline-block;
+    width: 200px;
+}
+
+.form__field{
+    border: 2px solid black;
+    width: 33%;
+}
+
+.form__result{
+    color: gold;
+    text-align: center;
+}
+
+.buttons{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.buttons__calculate{
+    margin: auto;
+    padding: 20px;
+    color: gold;
+    
+}
+.buttons__calculateInside{
+    color: gold;
+    background-color: gray;
+    padding: 5.5px;
+}
+.buttons__calculateInside:hover{
+   background-color: rgb(173, 173, 173);
+}
+
+.button__reset{  color: gold;
+    background-color: gray;
+    padding: 5px;
+}
+.button__reset:hover{
+    background-color: rgb(173, 173, 173);
+}
+
