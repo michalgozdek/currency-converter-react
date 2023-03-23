@@ -1,7 +1,7 @@
 import Header from './Header';
 import Container from './Container';
 import Footer from './Footer';
-import Form from './Forrm';
+import { Form } from './Forrm';
 import { useState } from 'react';
 import { currencies } from './currencies';
 
@@ -25,8 +25,7 @@ function App() {
          <Header />
           <Form 
            result={result}
-           calculateResult={calculateResult}
-          />
+           calculateResult={calculateResult} />
           <Footer />
        </Container>
   );

@@ -5,9 +5,8 @@ html{
   box-sizing: inherit;
 }
 
-
-
 body {
   font-family: "Roboto", "bezszeryfowa";
   background-color: rgb(88, 88, 88);
+  background-image: url("background.jpg");
 }
