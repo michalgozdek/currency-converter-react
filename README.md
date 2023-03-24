@@ -4,7 +4,7 @@ Demo
 
 https://michalgozdek.github.io/currency-converter-react/
 
-image.png
+!(readme.png)
 
 
 # Getting Started with Create React App
