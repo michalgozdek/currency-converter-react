@@ -11,13 +11,12 @@ this is a simple cuurency converter where you can convert from zloty to other cu
 
 # Techologies
 
-<ul>
-<il>HTML</il>
-<il>CSS</il>
-<il>Create-react-app</il>
-<il>GIT</il>
-<il>React js</il>
-</ul>
+
+- HTML
+- CSS
+- Create-react-app
+- GIT
+- React js
 
 
 # Getting Started with Create React App
