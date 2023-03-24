@@ -6,6 +6,19 @@ https://michalgozdek.github.io/currency-converter-react/
 
 ![look at my page](src/readme.png)
 
+# About my Page
+this is a simple cuurency converter where you can convert from zloty to other currencies . This app it was built on Create React App
+
+# Techologies
+
+<ul>
+<il>HTML</il>
+<il>CSS</il>
+<il>Create-react-app</il>
+<il>GIT</il>
+<il>React js</il>
+</ul>
+
 
 # Getting Started with Create React App
 
