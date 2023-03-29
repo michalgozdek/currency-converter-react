@@ -6,5 +6,4 @@ import "./style.css";
     </main>
  );
 
-
  export default Container;
