@@ -4,6 +4,7 @@ import Footer from './Footer';
 import { Form } from './Forrm';
 import { useState } from 'react';
 import { currencies } from './currencies';
+import {Clock} from './Clock';
 
 function App() {
 
@@ -18,10 +19,9 @@ function App() {
      currency,
     });
   }
-
   return (
-   
        <Container>
+        <Clock />
          <Header />
           <Form 
            result={result}
@@ -29,15 +29,6 @@ function App() {
           <Footer />
        </Container>
   );
-
 };
   
-
-
- 
-
-  
-
-
-
 export default App;
