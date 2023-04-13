@@ -5,8 +5,8 @@ import "./style.css";
         const [dateNow, setDate] = useState(new Date());
 
        useEffect(() =>{
-       const intervalId = setInterval(() =>{
-        setDate(new Date());
+         const intervalId = setInterval(() =>{
+           setDate(new Date());
        }, 1000)
 
          return () => {
@@ -14,8 +14,8 @@ import "./style.css";
          };
        }, []);
 
-       const formatDate = (date) =>
-     date.toLocaleString(undefined,
+      const formatDate = (date) =>
+         date.toLocaleString(undefined,
     {
         weekday: "long",
         day: "numeric",
@@ -24,7 +24,6 @@ import "./style.css";
         minute: "2-digit",
         second: "2-digit",
         });
- 
 
        return <div className="clock">Dzisiaj jest: {formatDate(dateNow)}</div>;
     };
