@@ -1,9 +1,5 @@
-import "./style.css";
+import { Box } from "./styled";
 
- const Container =({children}) => (
-    <main className="conteiner">
-        {children}
-    </main>
- );
+const Container = ({ children }) => <Box className="conteiner">{children}</Box>;
 
- export default Container;
+export default Container;
