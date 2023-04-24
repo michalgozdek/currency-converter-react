@@ -22,7 +22,7 @@ export const Form = ({ calculateResult, result }) => {
   return (
     <Field onSubmit={onFormSubmit}>
       <fieldset>
-        <Legend className="form__header">Kalkulator</Legend>
+        <Legend>Kalkulator</Legend>
         <p>
           <label>
             <Label> Podaj kwotę w PLN </Label>
@@ -57,7 +57,7 @@ export const Form = ({ calculateResult, result }) => {
       <Paragraph>
         <Button>Oblicz</Button>
       </Paragraph>
-      <Effect className="form__result">
+      <Effect>
         Kwota po Przeliczeniu :
         <Result result={result} />{" "}
       </Effect>
